@@ -1,10 +1,16 @@
 #include <iostream>
+#include <queue>
+#include <stack>
+#include <vector>
+#include <algorithm>
 #include <string>
+
 using namespace std;
 
 void customerMenu();
 void adminMenu();
 bool adminLogin();
+
 
 int main() {
     int role;
